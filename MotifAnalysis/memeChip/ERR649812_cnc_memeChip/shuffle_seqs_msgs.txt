@@ -1,6 +1,0 @@
-Traceback (most recent call last):
-  File "/local/cluster/meme/bin/fasta-dinucleotide-shuffle", line 3, in <module>
-    import sys, string, random
-  File "/usr/lib/python2.7/random.py", line 45, in <module>
-    from math import log as _log, exp as _exp, pi as _pi, e as _e, ceil as _ceil
-ImportError: /usr/lib/python2.7/lib-dynload/math.so: wrong ELF class: ELFCLASS32

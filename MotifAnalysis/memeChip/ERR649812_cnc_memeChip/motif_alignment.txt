@@ -1,2 +1,0 @@
-#Query ID	Target ID	Optimal offset	p-value	E-value	q-value	Overlap	Query consensus	Target consensus	Orientation
-0	0	0	4.99043e-12	4.99043e-12	9.98086e-12	11	CAGAATGACAC	CAGAATGACAC	+

@@ -1,5 +1,0 @@
-# WARNING: this file is not sorted!
-# db	id                         alt	 E-value	adj_p-value	log_adj_p-value	bin_location	bin_width	total_width	sites_in_bin	total_sites	p_success	 p-value	mult_tests
-   1	1                         MEME	1.3e0000	   4.3e-001	          -0.84	         0.0	        3	          7	         202	        446	  0.42857	1.7e-001	         3
-   1	2                         MEME	2.1e0000	   7.1e-001	          -0.35	         0.0	        2	          6	          42	        123	  0.33333	4.6e-001	         2
-   1	3                         MEME	2.4e-001	   8.1e-002	          -2.51	         0.0	        8	         10	         642	        774	  0.80000	2.1e-002	         4
