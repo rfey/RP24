@@ -1,0 +1,3 @@
+# rmf 3.2.2022
+
+python scripts/plotMotifBindingSites_svg.py bindingSiteInfo_DAVID_LLCs_transcriptGroups0.05_Cluster6_calcium_ion_transmembrane_transport_FDR0.05.txt DAVID_LLCs_transcriptGroups0.05_Cluster6_calcium_ion_transmembrane_transport_transcriptList.txt transcriptPromoterAndFirstIntronLocs6000bp.txt 1 4

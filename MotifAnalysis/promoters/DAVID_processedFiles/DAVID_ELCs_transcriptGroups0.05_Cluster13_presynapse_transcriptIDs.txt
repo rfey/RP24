@@ -1,0 +1,10 @@
+#transcriptID	transcriptSymbol
+FBtr0084977	Exo84-RA
+FBtr0075517	Arl1-RA
+FBtr0075365	Syx8-RA
+FBtr0334285	btsz-RB
+FBtr0072236	Snap29-RA
+FBtr0082195	gammaSnap2-RA
+FBtr0077519	Sec5-RA
+FBtr0331838	lqf-RL
+FBtr0088103	Syx6-RB

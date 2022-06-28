@@ -1,0 +1,16 @@
+trpl-RD
+Trpm-RE
+SERCA-RE
+Shaw-RA
+Ca-alpha1D-RD
+Ca-alpha1D-RH
+pain-RB
+SERCA-RI
+Nckx30C-RD
+PMCA-RM
+slo-RN
+wtrw-RD
+RyR-RA
+stj-RD
+GluRIIA-RI
+RyR-RJ

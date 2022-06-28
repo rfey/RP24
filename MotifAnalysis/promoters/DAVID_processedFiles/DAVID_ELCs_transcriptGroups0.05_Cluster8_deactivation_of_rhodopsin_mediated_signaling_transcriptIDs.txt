@@ -1,0 +1,9 @@
+#transcriptID	transcriptSymbol
+FBtr0077987	Pino-RB
+FBtr0079437	ninaC-RA
+FBtr0304964	Cam-RD
+FBtr0302662	rdgA-RC
+FBtr0307350	Arr1-RB
+FBtr0085513	trp-RA
+FBtr0085462	Obp99b-RA
+FBtr0331716	rdgB-RI

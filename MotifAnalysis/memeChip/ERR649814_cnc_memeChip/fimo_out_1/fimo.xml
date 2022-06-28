@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="fimo-to-html.xsl"?>
+<!-- Begin document body -->
+<fimo version="4.10.0" release="Wed May 21 10:35:36 2014 +1000">
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation=  xmlns:fimo="http://noble.gs.washington.edu/schema/fimo"
+>
+<command-line>/local/cluster/meme/bin/fimo --parse-genomic-coord --verbosity 1 --oc ERR649814_cnc_memeChip/fimo_out_1 --bgfile ERR649814_cnc_memeChip/background --motif 1 ERR649814_cnc_memeChip/meme_out/meme.xml ERR649814_cnc_memeChip/ERR649814_cnc.fasta</command-line>
+<settings>
+<setting name="output directory">ERR649814_cnc_memeChip/fimo_out_1</setting>
+<setting name="MEME file name">ERR649814_cnc_memeChip/meme_out/meme.xml</setting>
+<setting name="sequence file name">ERR649814_cnc_memeChip/ERR649814_cnc.fasta</setting>
+<setting name="background file name">ERR649814_cnc_memeChip/background</setting>
+<setting name="allow clobber">true</setting>
+<setting name="compute q-values">true</setting>
+<setting name="parse genomic coord.">true</setting>
+<setting name="text only">false</setting>
+<setting name="scan both strands">true</setting>
+<setting name="max sequence length">250000000</setting>
+<setting name="output threshold">0.0001</setting>
+<setting name="threshold type">p-value</setting>
+<setting name="max stored scores">100000</setting>
+<setting name="pseudocount">0.1</setting>
+<setting name="verbosity">1</setting>
+<setting name="selected motif">1</setting>
+</settings>
+<sequence-data num-sequences="146546" num-residues="2930920" />
+<alphabet>nucleotide</alphabet>
+<motif name="1" width="11" best-possible-match="CGTCATGATGA"/>
+<motif name="2" width="15" best-possible-match="CATGACGGGCATGAC"/>
+<motif name="3" width="8" best-possible-match="GCTAATTA"/>
+<background source="ERR649814_cnc_memeChip/background">
+<value letter="A">0.261</value>
+<value letter="C">0.239</value>
+<value letter="G">0.239</value>
+<value letter="T">0.261</value>
+</background>
+<incomplete-motifs>
+<incomplete-motif name="1" max-pvalue="1.7e-06"/>
+</incomplete-motifs>
+<cisml-file>cisml.xml</cisml-file>
+</fimo>

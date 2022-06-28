@@ -1,0 +1,14 @@
+#transcriptID	transcriptSymbol
+FBtr0334640	Lrrk-RC
+FBtr0303757	Kank-RG
+FBtr0080362	Patsas-RA
+FBtr0087869	nemy-RC
+FBtr0084369	CenB1A-RB
+FBtr0089340	Rel-RC
+FBtr0084890	Tnks-RA
+FBtr0302662	rdgA-RC
+FBtr0112788	Lrrk-RB
+FBtr0085513	trp-RA
+FBtr0072417	pain-RA
+FBtr0087870	nemy-RB
+FBtr0088473	trpl-RB

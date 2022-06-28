@@ -1,0 +1,5 @@
+#transcriptID	transcriptSymbol
+FBtr0070241	DAAM-RA
+FBtr0077513	capu-RA
+FBtr0075775	Frl-RA
+FBtr0333889	Fhos-RJ

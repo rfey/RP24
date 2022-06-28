@@ -1,0 +1,5 @@
+#transcriptID	transcriptSymbol
+FBtr0083052	Caf1-55-RA
+FBtr0332102	E(bx)-RH
+FBtr0302046	Mi-2-RC
+FBtr0087842	Iswi-RB

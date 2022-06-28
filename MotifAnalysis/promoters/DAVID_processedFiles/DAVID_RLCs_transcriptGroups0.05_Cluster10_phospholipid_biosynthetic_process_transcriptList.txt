@@ -1,0 +1,11 @@
+LPCAT-RB
+norpA-RC
+CdsA-RA
+Gpo1-RD
+mino-RE
+Pcyt2-RA
+norpA-RA
+CG33116-RA
+CG7149-RA
+rdgA-RB
+laza-RA

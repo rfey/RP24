@@ -1,0 +1,9 @@
+#transcriptID	transcriptSymbol
+FBtr0329872	SLO2-RL
+FBtr0100382	nrv2-RF
+FBtr0085513	trp-RA
+FBtr0074973	Shal-RA
+FBtr0299833	KCNQ-RD
+FBtr0072417	pain-RA
+FBtr0089659	Sh-RA
+FBtr0088473	trpl-RB

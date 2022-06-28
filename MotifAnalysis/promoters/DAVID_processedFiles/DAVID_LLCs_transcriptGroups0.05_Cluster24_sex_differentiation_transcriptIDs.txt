@@ -1,0 +1,8 @@
+#transcriptID	transcriptSymbol
+FBtr0334582	Stat92E-RI
+FBtr0336727	Sxl-RZ
+FBtr0080883	her-RA
+FBtr0308599	Doa-RY
+FBtr0339710	dsx-RF
+FBtr0299748	Doa-RS
+FBtr0071424	Yp2-RA

@@ -1,0 +1,5 @@
+#transcriptID	transcriptSymbol
+FBtr0075190	Adgf-A-RA
+FBtr0081971	Ada-RA
+FBtr0082845	Adgf-D-RA
+FBtr0309246	AMPdeam-RJ

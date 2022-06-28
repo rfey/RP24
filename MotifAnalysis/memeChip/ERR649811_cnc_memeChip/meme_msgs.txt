@@ -1,0 +1,1 @@
+maxw > length of longest sequence (20).  Setting maxw to 20.

@@ -1,0 +1,12 @@
+#transcriptID	transcriptSymbol
+FBtr0070477	per-RA
+FBtr0071909	inaD-RA
+FBtr0334836	ninaC-RD
+FBtr0331356	trp-RB
+FBtr0100670	norpA-RC
+FBtr0083736	cry-RA
+FBtr0070651	norpA-RA
+FBtr0080291	Rh5-RA
+FBtr0087047	inaC-RA
+FBtr0088471	trpl-RA
+FBtr0087832	Galphaq-RD

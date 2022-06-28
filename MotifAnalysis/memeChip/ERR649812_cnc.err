@@ -1,0 +1,29 @@
+Starting fasta-get-markov: fasta-get-markov -nostatus -m 1 < ERR649812_cnc_memeChip/ERR649812_cnc.fasta 1> ERR649812_cnc_memeChip/background
+fasta-get-markov ran successfully in 0.06691 seconds
+Starting getsize: getsize ERR649812_cnc_memeChip/ERR649812_cnc.fasta 1> $metrics
+getsize ran successfully in 0.166135 seconds
+Starting fasta-most: fasta-most -min 50 < ERR649812_cnc_memeChip/ERR649812_cnc.fasta 1> $metrics
+fasta-most ran successfully in 0.410085 seconds
+Starting fasta-center: fasta-center -len 100 < ERR649812_cnc_memeChip/ERR649812_cnc.fasta 1> ERR649812_cnc_memeChip/seqs-centered
+fasta-center ran successfully in 1.153544 seconds
+Starting fasta-dinucleotide-shuffle: fasta-dinucleotide-shuffle -f ERR649812_cnc_memeChip/seqs-centered -t -dinuc 1> ERR649812_cnc_memeChip/seqs-shuffled
+Traceback (most recent call last):
+  File "/local/cluster/meme/bin/fasta-dinucleotide-shuffle", line 3, in <module>
+    import sys, string, random
+  File "/usr/lib/python2.7/random.py", line 45, in <module>
+    from math import log as _log, exp as _exp, pi as _pi, e as _e, ceil as _ceil
+ImportError: /usr/lib/python2.7/lib-dynload/math.so: wrong ELF class: ELFCLASS32
+fasta-dinucleotide-shuffle exited with error code 1Starting fasta-subsample: fasta-subsample ERR649812_cnc_memeChip/seqs-centered 600 -rest ERR649812_cnc_memeChip/seqs-discarded 1> ERR649812_cnc_memeChip/seqs-sampled
+fasta-subsample ran successfully in 1.422081 seconds
+Starting meme: meme ERR649812_cnc_memeChip/seqs-sampled -oc ERR649812_cnc_memeChip/meme_out -dna -mod zoops -nmotifs 3 -minw 6 -maxw 30 -bfile ERR649812_cnc_memeChip/background -revcomp -nostatus
+maxw > length of longest sequence (20).  Setting maxw to 20.
+meme ran successfully in 105.578712 seconds
+WARNING: skipped dreme due to missing requirement shuffle_seqs.
+Starting centrimo: centrimo -seqlen 0 -verbosity 1 -oc ERR649812_cnc_memeChip/centrimo_out -bgfile ERR649812_cnc_memeChip/background ERR649812_cnc_memeChip/ERR649812_cnc.fasta ERR649812_cnc_memeChip/meme_out/meme.xml
+centrimo ran successfully in 0.439758 seconds
+Starting tomtom: tomtom -verbosity 1 -text -thresh 0.1 ERR649812_cnc_memeChip/combined.meme ERR649812_cnc_memeChip/combined.meme 1> ERR649812_cnc_memeChip/motif_alignment.txt
+tomtom ran successfully in 0.032386 seconds
+Starting spamo: spamo -verbosity 1 -oc ERR649812_cnc_memeChip/spamo_out_1 -bgfile ERR649812_cnc_memeChip/background -primary 1 ERR649812_cnc_memeChip/ERR649812_cnc.fasta ERR649812_cnc_memeChip/meme_out/meme.xml ERR649812_cnc_memeChip/meme_out/meme.xml
+spamo ran successfully in 0.894666 seconds
+Starting fimo: fimo --parse-genomic-coord --verbosity 1 --oc ERR649812_cnc_memeChip/fimo_out_1 --bgfile ERR649812_cnc_memeChip/background --motif 1 ERR649812_cnc_memeChip/meme_out/meme.xml ERR649812_cnc_memeChip/ERR649812_cnc.fasta
+fimo ran successfully in 3.071828 seconds

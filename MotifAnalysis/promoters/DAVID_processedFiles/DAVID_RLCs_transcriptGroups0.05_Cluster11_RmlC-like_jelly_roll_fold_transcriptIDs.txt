@@ -1,0 +1,7 @@
+#transcriptID	transcriptSymbol
+FBtr0073955	eag-RA
+FBtr0308835	Ih-RK
+FBtr0088438	Pka-R2-RB
+FBtr0302639	Pka-R1-RX
+FBtr0082131	CG8417-RA
+FBtr0077247	bves-RB
