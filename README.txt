@@ -1,5 +1,9 @@
 # rmf 2.28.2022, last modified 3.2.2022
 
+Code required to replicate analyses in:  
+Sebastian B, Fey RM, Morar P, Lasher B, Giebultowicz JM, Hendrix DA. Discovery and Visualization of Age-Dependent Patterns in the Diurnal Transcriptome of Drosophila. Journal of Circadian Rhythms. 2022;20.  
+https://doi.org/10.5334/jcr.218  
+
 # DIRECTORY CONTENTS #
 
 RP24/
